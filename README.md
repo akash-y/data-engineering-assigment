@@ -57,5 +57,14 @@ We do not expect that you will complete everything. That's perfectly OK! But, pl
 If you get stuck on something, write down your intentions and how you would solve the rest of the tasks. Answer what, why and how you would like to accomplish.
 We want to understand your thought process!
 
+Data:
+
+If you have problem to load mssql from volume, please remove content of mssqldata folder and run:
+
+```bash
+pip install -r requirements.txt
+python populate
+```
+
 
 
