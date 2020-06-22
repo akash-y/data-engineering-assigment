@@ -63,7 +63,7 @@ If you have problem to load mssql from volume, please remove content of mssqldat
 
 ```bash
 pip install -r requirements.txt
-python populate
+python populate.py
 ```
 
 
