@@ -2,6 +2,8 @@ import pyodbc
 
 conn = pyodbc.connect(
     'Driver={/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.5.so.2.1};'
+    #Changing driver for Mac
+    #'Driver={ODBC Driver 17 for SQL Server};'
     'Server=localhost;'
     'Database=master;'
     'uid=sa;pwd=Password123')

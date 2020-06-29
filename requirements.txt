@@ -1,2 +1,5 @@
 pyodbc
 pymssql
+pandas
+numpy
+PyYAML

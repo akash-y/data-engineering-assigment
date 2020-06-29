@@ -1,5 +1,4 @@
 version: '3'
-
 services:
   mssql:
     image: microsoft/mssql-server-linux:2017-latest
@@ -10,5 +9,8 @@ services:
       - MSSQL_SA_PASSWORD=Password123
       - MSSQL_PID=Developer
     volumes:
-    - ./mssqldata:/var/opt/mssql
-
+      - ./sql_server_demo:/var/opt/mssql
+  mytask1:
+    build: .
+    links:
+      - "mssql"
