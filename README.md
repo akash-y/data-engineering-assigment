@@ -3,10 +3,15 @@
 Task 1 available as a jupyter notebook. Task 2 and Task 3 are available in the main.py file. 
 
 modules.py contains functions for preprocessing and merging
+
 new_populate.py contains code for creating a new schema to insert the patient_timeline df into 
+
 col_info.csv is a data dictionary for mapping alias of column names and for describing table and column features (ideal for non-technical audiences) 
+
 config.yaml lists usernames and passwords
+
 docker-compose.yaml and requirements.txt has been modified 
+
 
 Things to note: 
 1. Changed drivers for Mac while working on the solution (changed it back to default while submitting)
