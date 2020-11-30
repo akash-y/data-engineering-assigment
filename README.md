@@ -20,11 +20,7 @@ Things to note:
 
 # Problem Description
 
-We are excited to welcome you our take home assignment!
-
-This assignment is part of application for the data engineering position at healthplusAI
-
-Your task is to load data from MSSQL database, analyze medical data present and plot your findings in the dataset.
+Task : Load data from MSSQL database, analyze medical data present and plot your findings in the dataset.
 
 The code has to be written in Python, data processing part should be ideally dockerized and solution should be published on public github account. Clone or fork this project and modify it to your liking. All components and instructions are made on unix system, and so should be the assigment.
 
