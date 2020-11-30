@@ -63,24 +63,5 @@ datetime-based feature
 and other features
 ```
 
-# Assigment
-1. explore the data and present your findings using visualizations (jupyter notebook with plots please)
-2. create a timeseries dataset, where each record is a timeline for each patient based on datetime feature in all tables - this should ideally be runnable as docker container
-3. extract features from all tables and combine them into a single feature vector, indexed by patient_id and datetime feature - this should ideally be runnable as docker container
-
-# Notes
-We do not expect that you will complete everything. That's perfectly OK! But, please, make sure to acompany your code with comments as you go, commit often with commit messages.
-If you get stuck on something, write down your intentions and how you would solve the rest of the tasks. Answer what, why and how you would like to accomplish.
-We want to understand your thought process!
-
-Data:
-
-If you have problem to load mssql from volume, please remove content of mssqldata folder and run:
-
-```bash
-pip install -r requirements.txt
-python populate.py
-```
-
 
 
